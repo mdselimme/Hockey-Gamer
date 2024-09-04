@@ -388,7 +388,7 @@
             <h1 class="text-4xl font-extrabold mb-7 text-[#131318] mt-9">Get In Touch</h1>
             <p class="text-[rgba(19,19,24,0.6)] text-base mb-9">Have questions or want to learn more? Contact us today. Our friendly team is ready to assist you. <br> Call us at phone or email . We look forward to hearing from you!</p>
           </div>
-          <div class="text-box-main my-10 grid grid-cols-3 gap-8">
+          <div class="text-box-main my-10 grid grid-cols-3 items-center gap-8">
             <div class="text-box-image border-2 p-5 rounded-[25px]">
               <div class="text-address-box p-7 bg-[rgba(188,237,109,0.1)] rounded-[25px] mb-7">
                 <img class="w-12 h-12" src="./images/phone.png" alt="phone">
@@ -419,18 +419,19 @@
               </div>
               <div class="input-box flex justify-between gap-5 mt-10">
                 <p class="w-full">
-                  <label class="block font-bold text-xl mb-3" for="name">Subject</label>
-                <input class="bg-slate-100 px-5 py-4 w-[100%] rounded-md" type="text" id="name" placeholder="Enter your name">
+                  <label class="block font-bold text-xl mb-3" for="subject">Subject</label>
+                <input class="bg-slate-100 px-5 py-4 w-[100%] rounded-md" type="text" id="subject" placeholder="Enter your name">
                 </p>
                  <p class="w-full">
-                  <label class="block font-bold text-xl mb-3" for="email">Phone Number</label>
-                  <input class="bg-slate-100 px-5 py-4 w-[100%] rounded-md" type="tel" placeholder="Enter your email">
+                  <label class="block font-bold text-xl mb-3" for="phone">Phone Number</label>
+                  <input class="bg-slate-100 px-5 py-4 w-[100%] rounded-md" id="phone" type="tel" placeholder="Enter your email">
                  </p>
               </div>
               <p class="w-full mt-10">
-                <label class="block font-bold text-xl mb-3" for="email">Message</label>
-                <input class="bg-slate-100 px-5 py-4 w-[100%] rounded-md" type="tel" placeholder="Write Your Message">
+                <label class="block font-bold text-xl mb-3" for="Message">Message</label>
+                <textarea class="bg-slate-100 px-5 py-4 w-[100%] h-[370px] rounded-md" type="tel" placeholder="Write Your Message" id="Message"></textarea>
                </p>
+               <button class="btn w-full text-xl font-bold text-white bg-[#FF4240] mt-3 hover:bg-orange-600" type="submit">Send Message</button>
             </div>
           </div>
         </div>
